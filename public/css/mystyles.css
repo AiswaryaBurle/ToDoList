@@ -1,0 +1,96 @@
+html
+{
+  background-color: #1a1c20;
+  background-image: -webkit-linear-gradient(45deg, #1a1c20 50%, #f0a500 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  text-align: center;
+}
+
+p
+{
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+input[type="checkbox"]
+{
+  margin: 20px;
+}
+
+input:checked+p
+{
+  text-decoration: line-through;
+  text-decoration-color: #cf7500;
+}
+
+form.item
+{
+  text-align: center;
+  margin-left: 20px;
+}
+
+button
+{
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #f0a500;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus
+{
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #f0a500;
+}
+
+footer
+{
+  color: #555;
+  text-align: center;
+}
+
+.box
+{
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading
+{
+  background-color: #1a1c20;
+  color: #cf7500;
+}
+
+.item
+{
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
